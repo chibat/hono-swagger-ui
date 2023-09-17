@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run --allow-net=:8000 main.ts"
+  },
+  "imports": {
+    "@hono/zod-openapi": "npm:@hono/zod-openapi@0.4.0/dist/index.js",
+    "hono/html": "npm:hono@3.6.3/html"
+  }
+}

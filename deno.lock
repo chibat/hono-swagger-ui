@@ -1,0 +1,58 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/x/hono@v3.6.3/helper/html/index.ts": "a5028d8170dcc030d003749e743213e6532ff65798b741b81220207abc9af82d",
+    "https://deno.land/x/hono@v3.6.3/utils/html.ts": "9dac0ef4014170bbd387c20913e60d6f506ecd95ba931c0e5a86e50962c118fe"
+  },
+  "npm": {
+    "specifiers": {
+      "@hono/zod-openapi": "@hono/zod-openapi@0.4.0_hono@3.6.3_zod@3.22.2",
+      "@hono/zod-openapi@0.4.0": "@hono/zod-openapi@0.4.0_hono@3.6.3_zod@3.22.2",
+      "hono": "hono@3.6.3",
+      "hono@3.6.3": "hono@3.6.3"
+    },
+    "packages": {
+      "@asteasolutions/zod-to-openapi@5.5.0_zod@3.22.2": {
+        "integrity": "sha512-d5HwrvM6dOKr3XdeF+DmashGvfEc+1oiEfbscugsiwSTrFtuMa7ETpW9sTNnVgn+hJaz+PRxPQUYD7q9/5dUig==",
+        "dependencies": {
+          "openapi3-ts": "openapi3-ts@4.1.2",
+          "zod": "zod@3.22.2"
+        }
+      },
+      "@hono/zod-openapi@0.4.0_hono@3.6.3_zod@3.22.2": {
+        "integrity": "sha512-tyHXZMnfDAojLYeW+QxTaBGGkc/XaUvvfrJzuSPcCSu8LA+AjneGzzNYUKKB/rrJnrfBb+MkZYXlhb5/lmYxjQ==",
+        "dependencies": {
+          "@asteasolutions/zod-to-openapi": "@asteasolutions/zod-to-openapi@5.5.0_zod@3.22.2",
+          "@hono/zod-validator": "@hono/zod-validator@0.1.8_hono@3.6.3_zod@3.22.2",
+          "hono": "hono@3.6.3",
+          "zod": "zod@3.22.2"
+        }
+      },
+      "@hono/zod-validator@0.1.8_hono@3.6.3_zod@3.22.2": {
+        "integrity": "sha512-/Kd/p/dUVKM7/1TY3jafTV+ngwEh3fOLmXCJQKb9esWsCom5WOJaNmZYv8jeRhyipu1xBvmN5jceRA3Ev3rmQw==",
+        "dependencies": {
+          "hono": "hono@3.6.3",
+          "zod": "zod@3.22.2"
+        }
+      },
+      "hono@3.6.3": {
+        "integrity": "sha512-8WszeHGzUm45qJy2JcCXkEFXMsAysciGGQs+fbpdUYPO2bRMbjJznZE3LX8tCXBqR4f/3e6225B3YOX6pQZWvA==",
+        "dependencies": {}
+      },
+      "openapi3-ts@4.1.2": {
+        "integrity": "sha512-B7gOkwsYMZO7BZXwJzXCuVagym2xhqsrilVvV0dnq2Di4+iLUXKVX9gOK23ZqaAHZOwABXN0QTdW8QnkUTX6DA==",
+        "dependencies": {
+          "yaml": "yaml@2.3.2"
+        }
+      },
+      "yaml@2.3.2": {
+        "integrity": "sha512-N/lyzTPaJasoDmfV7YTrYCI0G/3ivm/9wdG0aHuheKowWQwGTsK0Eoiw6utmzAnI6pkJa0DUVygvp3spqqEKXg==",
+        "dependencies": {}
+      },
+      "zod@3.22.2": {
+        "integrity": "sha512-wvWkphh5WQsJbVk1tbx1l1Ly4yg+XecD+Mq280uBGt9wa5BKSWf4Mhp6GmrkPixhMxmabYY7RbzlwVP32pbGCg==",
+        "dependencies": {}
+      }
+    }
+  }
+}
